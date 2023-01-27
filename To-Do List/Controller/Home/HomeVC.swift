@@ -40,7 +40,6 @@ class HomeVC: UIViewController {
                     
                 }else{
                     self.lblNoTask.isHidden = false
-                    self.showAlertMessage(message: message)
                 }
                 self.tblTask.reloadData()
             }

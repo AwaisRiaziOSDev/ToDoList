@@ -13,7 +13,7 @@ class TaskViewModel: NSObject {
     
     var isSuccess = false
     var errorString = ""
-    let network = Network()
+    lazy var network = Network()
 
     private(set) var taskViewModel : [TaskModel]!{
         didSet {

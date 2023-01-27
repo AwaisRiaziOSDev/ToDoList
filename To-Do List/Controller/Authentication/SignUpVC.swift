@@ -11,7 +11,7 @@ class SignUpVC: UIViewController {
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
 
-    let networkManager = Network()
+    lazy var networkManager = Network()
     
     override func viewDidLoad() {
         super.viewDidLoad()

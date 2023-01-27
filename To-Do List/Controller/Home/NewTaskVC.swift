@@ -16,7 +16,7 @@ class NewTaskVC: UIViewController {
     
     @IBOutlet weak var btnCreateTask: UIButton!
     
-    let network = Network()
+    lazy var network = Network()
     var isUpdateTask: Bool?
     var taskObj: TaskModel?
 
